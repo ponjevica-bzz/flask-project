@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Car List</h1>
+    <a href="add_car">Add car</a>
     <ul>
         {% for car in cars %}
             <li>{{ car['make'] }} - {{ car['model'] }} ({{ car['year'] }})</li>
